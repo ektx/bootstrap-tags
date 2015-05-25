@@ -36,7 +36,14 @@
             $("#small").tags({
               tagSize: "sm",
               suggestions: ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india"],
-              tagData: ["juliett", "kilo"]
+              tagData: ["juliett", "kilo"],
+              exclude: ["apple"],
+              beforeAddingTag: function(tag) {
+                console.log(tag)
+              },
+              afterAddingTag: function(tag) {
+                console.log('after:'+tag)
+              }
             });
             $("#large").tags({
               tagSize: "lg",
@@ -52,7 +59,7 @@
               tagData: ["juliett", "kilo"]
             });
             $("#suggestOnClick").tags({
-              restrictTo: ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india"],
+              restrictTo: ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "zwl"],
               suggestions: ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india"],
               promptText: "Click here to add new tags",
               suggestOnClick: true
