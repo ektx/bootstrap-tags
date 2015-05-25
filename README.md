@@ -2,16 +2,8 @@
 
 这里是我对使用 Bootstrap Tags 的一些杂记,希望对你也有帮助!
 
-你可以从这里访问原作者的 [https://github.com/maxwells/bootstrap-tags](Bootstrap Tags)
+你可以从这里访问原作者的 [Bootstrap Tags](https://github.com/maxwells/bootstrap-tags)
 
-## Installation
-
-	$ bower install bootstrap-tags
-	
-or
-
-	$ git clone https://github.com/maxwells/bootstrap-tags.git
-	--> js files are located in dist/js, CSS in dist/css
 
 ## Features
 - Support for Bootstrap 2.3.2 and 3+
