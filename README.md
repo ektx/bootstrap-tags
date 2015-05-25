@@ -67,7 +67,7 @@ option | type | description | default
 `readOnly` | `boolean` | whether or not to disable user input | `false`
 `suggestions` | `Array` | a list of terms that will populate the autosuggest feature when a user types in the first character. | `[]`
 `caseInsensitive` | `Boolean` | whether or not autosuggest should ignore case sensitivity | `false`
-`restrictTo` | `Array` | a list of allowed tags (will be combined with suggestions, if provided). User inputted tags that aren't included in this list will be ignored | `[]`
+`restrictTo` | `Array` | 允许标签的列表（将与建议相结合，如果有的话）。未包含在该列表中的用户输入的标签将被忽略 | `[]`
 `exclude` | `Array` | a list of case insensitive disallowed tags. Supports wildcarding (eg. `['*offensive*']` will ignore any word that has `offensive` in it) | `[]`
 `popoverData` | `Array` | a list of popover data. The index of each element should match the index of corresponding tag in `tagData` array | `null`
 `popovers` | `Boolean` | whether or not to enable bootstrap popovers on tag mouseover | whether `popoverData` was provided
