@@ -6,7 +6,6 @@
       </title>
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <script src='js/jquery-1.11.2.min.js'></script>
-      <script src="js/bootstrap.min.js"></script>
       <script src='dist/js/bootstrap-tags.js'></script>
       <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-tags.css" />
    </head>
@@ -14,7 +13,7 @@
         <button id="small-btn">Small Value</button>
       <div class="container">
 
-        <h3>Bootstrap 3.0.3</h3>
+        <h3>JQuery Demo</h3>
 
         <p>Small</p>
         <div id="small"></div>
@@ -45,6 +44,7 @@
                 console.log('after:'+tag)
               }
             });
+            small.addTag('zwl')
             $('#small-btn').click(function() {
               console.log('jjj')
               console.log(small.getTags())

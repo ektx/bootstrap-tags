@@ -84,11 +84,11 @@ Some functions are chainable (returns a `Tagger` object), and can be used to mov
 function | return type | description
 ---------|-------------|-------------
 `hasTag(tag:string)` | `Boolean` | whether tag is in tag list
-`getTags()` | `Array` | a list of tags currently in the interface
+`getTags()` | `Array` | 获得当前标签集
 `getTagsWithContent()` | `Array` | a list of javascript objects with a `tag` property and `content` property
 `getTag(tag:string)` | `String` | returns tag as string
 `getTagWithContent(tag:string)` | `Object` | returns object with `tag` and `content` property (popover)
-`addTag(tag:string)` | `Tagger` | add a tag
+`addTag(tag:string)` | `Tagger` | 添加一个标签
 `renameTag(tag:string, newTag:string)` | `Tagger` | rename one tag to another value
 `removeLastTag()` | `Tagger` | removes last tag if it exists
 `removeTag(tag:string)` | `Tagger` | removes tag specified by string if it exists
