@@ -2,11 +2,6 @@
 
 Bootstrap Tags is a jQuery plugin meant to extend Twitter Bootstrap to include tagging functionality. It supports Bootstrap 2.3.2 and ≥ 3.0.
 
-[![Build Status](https://travis-ci.org/maxwells/bootstrap-tags.png?branch=master)](https://travis-ci.org/maxwells/bootstrap-tags)
-
-## Demo
-[http://maxwells.github.com/bootstrap-tags.html](http://maxwells.github.com/bootstrap-tags.html)
-
 ## Installation
 
 	$ bower install bootstrap-tags
@@ -68,7 +63,7 @@ option | type | description | default
 `suggestions` | `Array` | a list of terms that will populate the autosuggest feature when a user types in the first character. | `[]`
 `caseInsensitive` | `Boolean` | whether or not autosuggest should ignore case sensitivity | `false`
 `restrictTo` | `Array` | 允许标签的列表（将与建议相结合，如果有的话）。未包含在该列表中的用户输入的标签将被忽略 | `[]`
-`exclude` | `Array` | a list of case insensitive disallowed tags. Supports wildcarding (eg. `['*offensive*']` will ignore any word that has `offensive` in it) | `[]`
+`exclude` | `Array` | 禁止清单列表,此列表中数据无法选择. Supports wildcarding (eg. `['*offensive*']` will ignore any word that has `offensive` in it)[测试不支持通配符功能;(] | `[]`
 `popoverData` | `Array` | a list of popover data. The index of each element should match the index of corresponding tag in `tagData` array | `null`
 `popovers` | `Boolean` | whether or not to enable bootstrap popovers on tag mouseover | whether `popoverData` was provided
 `popoverTrigger` | `String` | indicates how popovers should be triggered. Acceptable values are 'click', 'hover', 'hoverShowClickHide' | `hover`
