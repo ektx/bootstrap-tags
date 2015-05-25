@@ -1,6 +1,8 @@
-# Bootstrap Tags
+# Bootstrap Tags 中文
 
-Bootstrap Tags is a jQuery plugin meant to extend Twitter Bootstrap to include tagging functionality. It supports Bootstrap 2.3.2 and ≥ 3.0.
+这里是我对使用 Bootstrap Tags 的一些杂记,希望对你也有帮助!
+
+你可以从这里访问原作者的 [https://github.com/maxwells/bootstrap-tags](Bootstrap Tags)
 
 ## Installation
 
