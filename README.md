@@ -130,7 +130,3 @@ If you want to hack away to provide a new feature/bug-fix, please follow these g
 ### License
 
 This project rocks and uses the MIT-LICENSE.
-
-### Author
-
-Max Lahey

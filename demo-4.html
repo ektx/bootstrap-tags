@@ -11,6 +11,7 @@
    </head>
    <body>
         <button id="small-btn">Small Value</button>
+        <button id="set-btn">Small Value</button>
       <div class="container">
 
         <h3>JQuery Demo</h3>
@@ -44,11 +45,18 @@
                 console.log('after:'+tag)
               }
             });
-            small.addTag('zwl')
+
+
             $('#small-btn').click(function() {
               console.log('jjj')
               console.log(small.getTags())
+            });
+
+            $('#set-btn').click(function() {
+                small.addTag('zwl')
+                
             })
+
             $("#large").tags({
               tagSize: "lg",
               suggestions: ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india"],
